@@ -171,7 +171,7 @@ header .container ul li{
 	align-items: center;
 	justify-content: end;
 	padding-right: 87px;
-}
+} 
 
 .section__green .container{
 	max-width: 273px;
@@ -230,7 +230,7 @@ header .container ul li{
 	margin-bottom: 82px;
 }
 
-.section__past ul{
+.section__past div{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
