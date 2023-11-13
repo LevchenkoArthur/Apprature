@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 body{
 	background-color: black;
+	font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -82,6 +83,7 @@ header .container ul li{
 	align-items: end;
 	justify-content: center;
 	padding-bottom: 71px;
+	position: relative;
 }
 
 .section__enter .container{
@@ -125,6 +127,56 @@ header .container ul li{
 	line-height: 20px; /* 142.857% */
 }
 
+.icons{
+	position: absolute;
+	right: 40px;
+	bottom: 41px;
+	display: flex;
+}
+
+.icons li{
+	color: #FFF;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 12px; /* 100% */
+	margin-left: 16px;
+}
+
+.icons li::before{
+	display:inline-block;
+	content: "";
+	background-image: url("../images/enter__img/oclock.svg");
+	width: 16px;
+	height: 16px;
+	margin-right: 6px;
+	margin-bottom: -7px;
+}
+
+.icons :nth-child(2)::before{
+	background-image: url("../images/enter__img/circle.svg");
+	width: 16px;
+	height: 16px;
+	margin-right: 6px;
+}
+
+.icons :nth-child(3)::before{
+	background-image: url("../images/enter__img/iso.svg");
+	margin-bottom: -7px;
+	width: 32px;
+	margin-right: 7px;
+}
+
+
+.icons :last-child::before{
+	background-image: url("../images/enter__img/location.svg");
+	margin-bottom: -7px;
+	width: 10px;
+	margin-right: 5px;
+}
+
+
 
 .section__japan{
 	min-height: 600px;
@@ -134,7 +186,7 @@ header .container ul li{
 	align-items: center;
 	justify-content: end;
 	padding-right: 62px;
-
+	position: relative;
 }
 
 .section__japan .container{
@@ -171,6 +223,7 @@ header .container ul li{
 	align-items: center;
 	justify-content: end;
 	padding-right: 87px;
+	position: relative;
 } 
 
 .section__green .container{
@@ -245,6 +298,7 @@ header .container ul li{
 	align-items: center;
 	justify-content: right;
 	padding-right: 106px;
+	position: relative;
 }
 
 
