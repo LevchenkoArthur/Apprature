@@ -1,5 +1,26 @@
-@media screen and (max-width: 764px) {
+
+@media screen and (max-width: 1240px) {
+	.container{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	}
+
+
+@media screen and (max-width: 907px) {
 	header nav{
 		display: none;
 	}
+	.section__enter .container{
+		padding: 0 15px;
+	}
+	}
+
+	@media screen and (max-width: 964px) {
+		.section__past div{
+			flex-direction: column;
+		}
+		.section__past div a{
+			margin-bottom: 50px;
+		}
 	}
