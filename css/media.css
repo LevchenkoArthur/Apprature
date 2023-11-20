@@ -24,3 +24,9 @@
 			margin-bottom: 50px;
 		}
 	}
+
+	@media screen and (max-width: 1191px) {
+		.section__whatwedo .container .dflex__spacebet{
+			justify-content: center;
+		}
+	}
